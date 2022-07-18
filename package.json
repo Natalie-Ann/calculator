@@ -1,0 +1,19 @@
+{
+  "name": "calculator",
+  "version": "1.0.0",
+  "description": "TI-108 emulator",
+  "main": "calculator_grid.html",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "Natalie Martos",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^28.1.1",
+    "jest-environment-jsdom": "^28.1.1",
+    "jsdom": "^20.0.0"
+  },
+  "jest": {
+    "testEnvironment": "jsdom"
+  }
+}
