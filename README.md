@@ -7,7 +7,7 @@ This app was built to directly mimic the design and functionality of the Texas I
 
 ## Demo
 
-Here is a working live demo: [TI-108 Calculator](https://zingy-pavlova-fdcb5f.netlify.app/)
+Here is a working live demo: [TI-108 Calculator](https://ti-108-calculator.netlify.app/)
 
 ## Technologies Used
 
