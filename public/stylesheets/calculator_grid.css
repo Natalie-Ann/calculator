@@ -5,12 +5,11 @@ html {
     margin: 0;
 }
 
-/* @font-face {
+@font-face {
     font-family: 'Digital Display';
-    src: url('http://fonts.cdnfonts.com/css/digital-display') format('truetype');
-} */
+    src: url('digitalDisplay.ttf') format('truetype');
+}
 
-@import url(http://fonts.cdnfonts.com/css/digital-display);
 
 .calculator-box {
     width: 15rem;
