@@ -234,7 +234,8 @@ button:focus {
     text-align: right;
     width: 75%;
     padding: 2%;
-    background-color: #beb9a6;
+    /* background-color: #beb9a6; */
+    background-color: rgba(190, 185, 166, 1);
     margin: 5% auto;
     color: black;
     border: 0.4rem inset #5d776e;
