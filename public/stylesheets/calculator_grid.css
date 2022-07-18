@@ -5,6 +5,11 @@ html {
     margin: 0;
 }
 
+@font-face {
+    font-family: 'Digital Display';
+    src: url('DigitalDisplayRegular-ODEO.ttf') format('truetype');
+}
+
 .calculator-box {
     width: 15rem;
     height: 25rem;
