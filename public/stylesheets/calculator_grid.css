@@ -10,6 +10,10 @@ html {
     src: url('digitalDisplay.ttf') format('truetype');
 }
 
+body {
+    touch-action: manipulation; 
+}
+
 
 .calculator-box {
     width: 15rem;
