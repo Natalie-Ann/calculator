@@ -1,4 +1,4 @@
-![Calulator Image](/public/images/my%20calculator.png)
+![Calulator Image](/public/images/my_calculator.png)
 
 # TI-108 Calculator
 
