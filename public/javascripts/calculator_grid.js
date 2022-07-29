@@ -349,10 +349,10 @@ function checkOverFlow() {
     }
 }
 
-module.exports = {
-    validateDuplicateOperators,
-    createOperationPhrase,
-    saveLastOperation,
-    calculate,
-}
+// module.exports = {
+//     validateDuplicateOperators,
+//     createOperationPhrase,
+//     saveLastOperation,
+//     calculate,
+// }
 
