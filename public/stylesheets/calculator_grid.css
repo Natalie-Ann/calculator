@@ -11,6 +11,11 @@ html {
     /* src: url('digitalDisplay.ttf') format('truetype'); */
 }
 
+@font-face {
+    font-family: "Bree Serif";
+    src: url('BreeSerif-Regular.ttf') format('truetype')
+}
+
 body {
     touch-action: none; 
 }
