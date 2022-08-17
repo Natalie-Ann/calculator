@@ -238,7 +238,7 @@ button:focus {
     font-size: xx-large;
     text-align: right;
     width: 75%;
-    padding: 2%;
+    /* padding: 2%; */
     /* background-color: #beb9a6; */
     background-color: rgb(190, 185, 166) !important;
     margin: 5% auto;
