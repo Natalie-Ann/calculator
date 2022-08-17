@@ -6,8 +6,9 @@ html {
 }
 
 @font-face {
-    font-family: 'Digital Display';
-    src: url('digitalDisplay.ttf') format('truetype');
+    font-family: "Digital Display";
+    src: url('./ds_digital/DS-DIGIB.TTF') format('truetype');
+    /* src: url('digitalDisplay.ttf') format('truetype'); */
 }
 
 body {
