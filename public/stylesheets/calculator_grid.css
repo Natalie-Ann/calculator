@@ -58,7 +58,7 @@ body {
     color: white;
     width: 40%;
     line-height: 1.3rem;
-    font-weight: bolder;
+    /* font-weight: bolder; */
     font-family: 'Bree Serif';
     font-size: 1.75rem;
     padding-right: 0.5%;
