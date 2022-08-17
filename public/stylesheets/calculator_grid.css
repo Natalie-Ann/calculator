@@ -7,7 +7,7 @@ html {
 
 @font-face {
     font-family: "Digital Display";
-    src: url('LCDAT&TPhoneTimeDate.ttf') format('truetype');
+    src: url('pocket_calcuatlor_tt.ttf') format('truetype');
     /* src: url('digitalDisplay.ttf') format('truetype'); */
 }
 
@@ -240,10 +240,10 @@ button:focus {
 
 .calculation {
     font-family: 'Digital Display';
-    font-size: xx-large;
+    font-size: 1.75rem;
     text-align: right;
     width: 75%;
-    padding: 1% 1% 0 0;
+    /* padding: 1% 1% 0 0; */
     /* background-color: #beb9a6; */
     background-color: rgb(190, 185, 166) !important;
     margin: 5% auto;
