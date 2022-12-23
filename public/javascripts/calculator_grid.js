@@ -175,7 +175,6 @@ function saveCurrentNumber() {
 
 function saveCharacter() {
     memoryRecord.push(currentCharacter);
-    console.log(memoryRecord);
 }
 
 function updateLastNumber(changedNumber) {
@@ -232,14 +231,11 @@ function clearScreenAndCalculation() {
 }
 
 function calculate() {
-    console.log(calculation);
     if (typeof calculation === 'string') {
         saveLastOperation();
         calculation = Function('return ' + createOperationPhrase(calculation))();
-        console.log(calculation);   
     } else {
         calculation += lastOperation;
-        console.log(calculation);
         calculation = Function('return ' + createOperationPhrase(calculation))();
         //repeat last calculation on current result
     }
@@ -255,18 +251,14 @@ function calculateWithExtraButtons(number, buttonType) {
     switch(buttonType) {
         case '%':
             let percentage = number/100;
-            // console.log(percentage);
-            // console.log(calculation);
             //if calculaiton includes operator, return % of previous number
             if ([...calculation].filter((current) => operators.includes(current)).length > 0) {
-                // console.log([...calculation].filter((current) => operators.includes(current)));
                 let lastOperatorIndex = calculation.lastIndexOf(lastOperator);
                 let calculationWithLastOperationRemoved = calculation.slice(0, lastOperatorIndex);
                 let previousNumber = calculationWithLastOperationRemoved.match(/[0-9]+/gi).pop();
                 //get previous number
                 //get %number of first number
                 percentage = previousNumber * percentage;
-                // console.log(percentage);
             } 
 
             return `${percentage}`
@@ -297,10 +289,8 @@ function calculateWithExtraButtons(number, buttonType) {
 function detectDoubleMRCClick() {
     let lastTwoInputs = memoryRecord.slice(-2);
     if (lastTwoInputs.every(element => element === 'MRC') && lastTwoInputs.length === 2) {
-        console.log('MRC clicked twice!');
         mrcClickedTwice = true;
         memoryRecord = [];
-        console.log(memoryRecord);
     }
 }
 
